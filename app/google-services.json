@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "737198913560",
+    "firebase_url": "https://mysmallbizchat.firebaseio.com",
+    "project_id": "mysmallbizchat",
+    "storage_bucket": "mysmallbizchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737198913560:android:82d5aa8a32a3f5424c6b6d",
+        "android_client_info": {
+          "package_name": "com.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737198913560-c44e7eea0iph6i7ss9ri3k5q0lk66gdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ6GuhbJ2siOO5uz2dIzjdoK5QuQkm5s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737198913560-c44e7eea0iph6i7ss9ri3k5q0lk66gdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

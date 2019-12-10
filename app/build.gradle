@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion versions.compileVersion
+    defaultConfig {
+        applicationId "com.chatapp"
+        minSdkVersion versions.minVersion
+        targetSdkVersion versions.targetVersion
+        versionCode versions.versionCode
+        versionName versions.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation files.values()
+    implementation androidLib.values()
+    implementation firebaseLib.values()
+    implementation picassoLib.values()
+    implementation cirleImage.values()
+    androidTestImplementation androidTestlib.values()
+}
+
+apply plugin: 'com.google.gms.google-services'
